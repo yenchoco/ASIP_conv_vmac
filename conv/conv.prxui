@@ -1,0 +1,29 @@
+<prxusersettings>
+    <zlayout>
+        <perspective type="dev">
+            <HorPaneNode>
+                <VerPaneNode size="1">
+                    <ViewBookNode size="3">
+                        <window name="ProjectView" visible="1" select="1"/>
+                        <window name="SrcRefView" visible="0" select="0"/>
+                    </ViewBookNode>
+                    <ViewBookNode size="2">
+                        <window name="OutlineView" visible="0" select="0"/>
+                        <window name="CallHierarchyView" visible="0" select="0"/>
+                    </ViewBookNode>
+                </VerPaneNode>
+                <VerPaneNode size="2">
+                    <EditorBookNode size="2">
+                        <window name="editor1" visible="1" select="1"/>
+                    </EditorBookNode>
+                    <ViewBookNode size="1">
+                        <window name="ConsoleView" visible="1" select="1"/>
+                    </ViewBookNode>
+                </VerPaneNode>
+            </HorPaneNode>
+        </perspective>
+        <editor id="editor1" file="conv_test.c" top="1.0" cursor="22.30" foldmap="1" linemap="0"/>
+    </zlayout>
+    <active cfg="Release" dbg="Dynamic"/>
+    <selectsim type="ISSCA" exe="&lt;PROCDIR&gt;/../iss/trv32p5x_ca"/>
+</prxusersettings>

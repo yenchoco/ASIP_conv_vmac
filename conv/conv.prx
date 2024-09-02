@@ -1,0 +1,13 @@
+<project name="Project" processor="trv32p5x" lib="../../lib">
+    <file type="c" name="test_arm_convolve_s8_change_vmac_32.c" path=""/>
+    <option id="backend.mist2.aggr" value="more" cfg="Release"/>
+    <option id="backend.mist2.fold" value="modo" cfg="Release"/>
+    <option id="backend.mist2.graph" value="on" cfg="Debug"/>
+    <option id="backend.mist2.graph" value="on" cfg="Debug_LLVM"/>
+    <option id="backend.mist2.graph" value="on" cfg="Native"/>
+    <option id="backend.mist2.graph" value="on" cfg="Release"/>
+    <option id="backend.mist2.graph" value="on" cfg="Release_LLVM"/>
+    <option id="backend.mist2.graph" value="on" cfg="Release_LLVM_full"/>
+    <option id="project.name" value="conv"/>
+    <option id="project.type" value="exe"/>
+</project>
